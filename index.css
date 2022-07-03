@@ -1,9 +1,6 @@
 #v13 {
     background-color: #7289DA;
     border-radius: 5px;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 30px;
     border: 3px solid #4E5D94;
     resize: none;
     padding: 10px;
@@ -26,7 +23,6 @@
 #v14 {
     background-color: #7289DA;
     border-radius: 5px;
-    margin-left: -40px;
     border: 3px solid #4E5D94;
     resize: none;
     padding: 10px;
@@ -76,67 +72,177 @@ button:hover {
     cursor: pointer;
 }
 
-/*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #v13 {
+        width: 100px;
+        height: 100px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+
+    #v14 {
+        width: 100px;
+        height: 100px;
+        margin-left: -40px;
+    }
+
+    .convert {
+        transform: translateY(-90px);
+    }
+
+    .copy {
+        transform: translate3d(-83px, -45px, 0px);
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #v13 {
+        width: 150px;
+        height: 150px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+
+    #v14 {
+        width: 150px;
+        height: 150px;
+        margin-left: -40px;
+    }
+
+    .convert {
+        transform: translateY(-140px);
+    }
+
+    .copy {
+        transform: translate3d(-83px, -95px, 0px);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
     #v13 {
         width: 200px;
         height: 200px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
     }
 
     #v14 {
         width: 200px;
         height: 200px;
+        margin-left: -40px;
+    }
+
+    .convert {
+        transform: translateY(-190px);
+    }
+
+    .copy {
+        transform: translate3d(-83px, -145px, 0px);
     }
 }
 
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
     #v13 {
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
     }
 
     #v14 {
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
+        margin-left: -40px;
+    }
+
+    .convert {
+        transform: translateY(-330px);
+    }
+
+    .copy {
+        transform: translate3d(-83px, -285px, 0px);
     }
 }
 
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
     #v13 {
         width: 400px;
         height: 400px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
     }
 
     #v14 {
         width: 400px;
         height: 400px;
+        margin-left: -40px;
+    }
+
+    .convert {
+        transform: translateY(-370px);
+    }
+
+    .copy {
+        transform: translate3d(-83px, -325px, 0px);
     }
 }
 
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1300px) {
     #v13 {
         width: 500px;
         height: 500px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
     }
 
     #v14 {
         width: 500px;
         height: 500px;
+        margin-left: -40px;
+    }
+
+    .convert {
+        transform: translateY(-480px);
+    }
+
+    .copy {
+        transform: translate3d(-83px, -435px, 0px);
     }
 }
 
-/* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1500px) {
     #v13 {
         width: 600px;
         height: 600px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
     }
 
     #v14 {
         width: 600px;
         height: 600px;
+        margin-left: -40px;
+    }
+
+    .convert {
+        transform: translateY(-580px);
+    }
+
+    .copy {
+        transform: translate3d(-83px, -535px, 0px);
     }
 }
