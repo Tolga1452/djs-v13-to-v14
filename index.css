@@ -1,3 +1,9 @@
+@font-face {font-family: "Uni Sans Heavy"; src: url("//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.eot"); src: url("//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.woff") format("woff"), url("//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.svg#Uni Sans Heavy") format("svg"); }
+
+* {
+    transition: .2s;
+}
+
 #v13 {
     background-color: #7289DA;
     border-radius: 5px;
@@ -72,6 +78,31 @@ button:hover {
     cursor: pointer;
 }
 
+.warning {
+    background-color: #FEE75C;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.warning {
+    font-family: 'Uni Sans Heavy';
+}
+
+a {
+    color: #5865F2;
+    transition: .2s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #454FBF;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #v13 {
@@ -94,6 +125,10 @@ button:hover {
 
     .copy {
         transform: translate3d(-83px, -45px, 0px);
+    }
+
+    .warning {
+        max-width: 300px;
     }
 }
 
@@ -120,6 +155,10 @@ button:hover {
     .copy {
         transform: translate3d(-83px, -95px, 0px);
     }
+
+    .warning {
+        max-width: 360px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -144,6 +183,10 @@ button:hover {
 
     .copy {
         transform: translate3d(-83px, -145px, 0px);
+    }
+
+    .warning {
+        max-width: 400px;
     }
 }
 
@@ -170,6 +213,10 @@ button:hover {
     .copy {
         transform: translate3d(-83px, -285px, 0px);
     }
+
+    .warning {
+        max-width: 480px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -194,6 +241,10 @@ button:hover {
 
     .copy {
         transform: translate3d(-83px, -325px, 0px);
+    }
+
+    .warning {
+        max-width: 480px;
     }
 }
 
@@ -220,6 +271,10 @@ button:hover {
     .copy {
         transform: translate3d(-83px, -435px, 0px);
     }
+
+    .warning {
+        max-width: 480px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -244,5 +299,9 @@ button:hover {
 
     .copy {
         transform: translate3d(-83px, -535px, 0px);
+    }
+
+    .warning {
+        max-width: 480px;
     }
 }
